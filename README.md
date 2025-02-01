@@ -19,5 +19,5 @@ https://wokwi.com/projects/421721104728023041
 
 Teste na placa
 
-https://github.com/user-attachments/assets/ac9ebd1b-760b-4df6-a5f1-6200a4dc1c30
+https://github.com/user-attachments/assets/ed523e73-b50d-4949-be8c-03b4179427d8
 
