@@ -6,7 +6,10 @@
 
 2- importe o repositório com a extensão raspberry pi
 
+no git bash(terminal do vs code)
 3- crie a pasta build comando (mkdir build) ou crie manualmente
+
+3.1-cmake -G Ninja -S . -B build
 
 4- compile o projeto pela extensão
 
