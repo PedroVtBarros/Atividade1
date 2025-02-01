@@ -16,3 +16,8 @@ no git bash(terminal do vs code)
 5- usar o ctrl+shift+p e digitar start simulation e iniciar a simulação do wokwi ou usar a simulação online
 
 https://wokwi.com/projects/421721104728023041
+
+Teste na placa
+
+https://github.com/user-attachments/assets/ac9ebd1b-760b-4df6-a5f1-6200a4dc1c30
+
