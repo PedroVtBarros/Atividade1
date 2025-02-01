@@ -4,9 +4,9 @@
 #include "hardware/timer.h"
 
 // Definição dos pinos dos LEDs
-#define LED_RED_PIN 11
+#define LED_RED_PIN 13
 #define LED_YELLOW_PIN 12
-#define LED_GREEN_PIN 13
+#define LED_GREEN_PIN 11
 
 // Variável para controlar o estado do semáforo
 typedef enum {
@@ -27,7 +27,8 @@ bool repeating_timer_callback(struct repeating_timer *t) {
     // Muda o estado do semáforo
     switch (currentState) {
         case RED:
-            gpio_put(LED_YELLOW_PIN, 1);  // Liga o LED amarelo
+            gpio_put(LED_GREEN_PIN, 1);
+            gpio_put(LED_RED_PIN, 1);  // Liga o LED amarelo
             currentState = YELLOW;
             break;
         case YELLOW:
