@@ -11,7 +11,7 @@
 
 3.1-cmake -G Ninja -S . -B build
 
-4- compile o projeto pela extensão
+4- de um 'run project' pela extensão
 
 5- usar o ctrl+shift+p e digitar start simulation e iniciar a simulação do wokwi ou usar a simulação online
 
